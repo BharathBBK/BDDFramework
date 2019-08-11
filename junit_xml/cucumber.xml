@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.555071">
+<testcase classname="Free Crm Login Page Feature" name="Free CRM Login Test Scenario" time="33.555071">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[#1 Free CRM for Any Business: Online Customer Relationship Software]&gt; but was:&lt;[Free CRM software for any Business]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at stepDefinition.LoginStepDefinition.title_of_login_page_is_free_CRM(LoginStepDefinition.java:29)&#13;&#10;&#9;at ✽.When title of login page is Free CRM(C:/Users/User/eclipse-workspace/BDDFrame/src/main/java/features/login.Feature:6)&#13;&#10;"><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is Free CRM........................................failed
+Then user enters username and password......................................skipped
+Then user clicks on login button............................................skipped
+Then user is on home page...................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[#1 Free CRM for Any Business: Online Customer Relationship Software]> but was:<[Free CRM software for any Business]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinition.LoginStepDefinition.title_of_login_page_is_free_CRM(LoginStepDefinition.java:29)
+	at ✽.When title of login page is Free CRM(C:/Users/User/eclipse-workspace/BDDFrame/src/main/java/features/login.Feature:6)
+]]></failure>
+</testcase>
+</testsuite>
